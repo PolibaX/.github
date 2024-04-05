@@ -1,6 +1,6 @@
 # PoliBaX Drone Contest
 
-Please refer to guidelines for managing the project [here](https://github.com/PolibaX/.github-private/blob/main/profile/guidelines.md)
+Public README for Leonardo Drone Contest Project.
 
 ## Software
 This section contains progress about hardware.
