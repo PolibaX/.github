@@ -2,6 +2,17 @@
 
 Public README for Leonardo Drone Contest Project.
 
+## Simulation
+This section contains progress about simulation.
+
+### Isaac Sim
+- *Progress*: 20%
+- *Status*: Needs assets ⚙️
+- *Working members*: Antonio Pio Maggio, Gabriele Santangelo
+- *Repo*: [isaac-sim](https://github.com/PolibaX/isaac-sim)
+
+This repository contains links to tutorials to get Isaac up and running on docker and will contain digital twins (in .usd or .urdf format) for the project.
+
 ## Software
 This section contains progress about hardware.
 
