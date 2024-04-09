@@ -73,7 +73,7 @@ in the form of a ROS2 package containing one or multiple nodes.
 - *Progress*: 80%
 - *Status*: Needs testing 🧪
 - *Working members*: Antonio Pio Maggio
-- *Repo*: [ros2_aruco](https://github.com/PolibaX/ros2_aruco)
+- *Repo*: [ros2-aruco](https://github.com/PolibaX/ros2-aruco)
 
 ROS2 Wrapper for OpenCV Aruco Marker Tracking. This also does Pose Filtering and Accumulation.
 
@@ -98,7 +98,7 @@ Bridge from ROS2 to Ground Control Station and back via WebSocket protocol.
 - *Progress*: 80%
 - *Status*: Working not complete 👍
 - *Working members*: Antonio Pio Maggio
-- *Repo*: [ZED_WebRTC](https://github.com/PolibaX/ZED_WebRTC)
+- *Repo*: [ZED-WebRTC](https://github.com/PolibaX/ZED-WebRTC)
 
 Tool to stream ZED's video feed (or any other video feed) over the network using the WebRTC protocol.
 
