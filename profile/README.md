@@ -63,7 +63,7 @@ High level mission planner for both rover and drone, in the form of a ROS2 packa
 - *Progress*: 5%
 - *Status*: Implementation phase ⚙️
 - *Working members*: Antonio Pio Maggio
-- *Repo*: NONE
+- *Repo*: [*map_aligner*](https://github.com/PolibaX/map_aligner)
 
 Global map aligner on aruco anchors and fine adjustments. This node will provide a shared reference frame for all the agents.
 
