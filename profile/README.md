@@ -44,8 +44,8 @@ Low-level controller for an odrive-based diff drive, in the form of a ROS2 packa
 Low-level controller for maxon motors in diff drive configuration, in the form of a ROS2 package.
 
 ### Path Planner
-- *Progress*: 5%
-- *Status*: Research phase 📖
+- *Progress*: 20%
+- *Status*: First Implementations ⚙️
 - *Working members*: Ivan Cisternino, Francesco Piscopo
 - *Repo*: NONE
 
@@ -54,10 +54,18 @@ Local and Global path planners for both rover and drone, in the form of a ROS2 p
 ### Mission Planner
 - *Progress*: 5%
 - *Status*: Research phase 📖
-- *Working members*: Ivan Cisternino, Francesco Piscopo
+- *Working members*: Antonio Pio Maggio, Gabriele Santangelo, Ivan Cisternino, Francesco Piscopo
 - *Repo*: NONE
 
 High level mission planner for both rover and drone, in the form of a ROS2 package containing one or multiple nodes.
+
+### Map Aligner
+- *Progress*: 5%
+- *Status*: Implementation phase ⚙️
+- *Working members*: Antonio Pio Maggio
+- *Repo*: NONE
+
+Global map aligner on aruco anchors and fine adjustments. This node will provide a shared reference frame for all the agents.
 
 ### Map Merger
 - *Progress*: 5%
@@ -65,13 +73,13 @@ High level mission planner for both rover and drone, in the form of a ROS2 packa
 - *Working members*: Antonio Pio Maggio
 - *Repo*: NONE
 
-Global map aligner and merger based on aruco anchors and fine adjustments. This node will provide
-a global voxel map for navigation purposes and a global point cloud for visialization purposes,
-in the form of a ROS2 package containing one or multiple nodes.
+Global map merger. This node will provide a global octomap for navigation purposes
+and a global point cloud for visialization purposes, in the form of a ROS2 package
+containing one or multiple nodes.
 
 ### ROS2 Aruco
-- *Progress*: 80%
-- *Status*: Needs testing 🧪
+- *Progress*: 90%
+- *Status*: Fully working, needs refinements 👍
 - *Working members*: Antonio Pio Maggio
 - *Repo*: [ros2-aruco](https://github.com/PolibaX/ros2-aruco)
 
@@ -87,8 +95,8 @@ Ground Station UI for displaying telemetry data from the system, camera feed, am
 This also allows mission control and status display.
 
 ### ROS2-GCS Bridge
-- *Progress*: 70%
-- *Status*: Full duplex in developement 🚧
+- *Progress*: 80%
+- *Status*: New protocols in developement 🚧
 - *Working members*: Gabriele Santangelo, Antonio Pio Maggio
 - *Repo*: [ros2-gcs-bridge](https://github.com/PolibaX/ros2-gcs-bridge)
 
@@ -124,8 +132,8 @@ This section contains progress about hardware.
 ### Rover
 
 #### V2.0 - Pluto (Temporary name)
-- *Progress*: 10%
-- *Status*: Project phase 💻
+- *Progress*: 50%
+- *Status*: Waiting for parts 📦
 - *Description*: Whole new rover made for modularity and ease of customization.
 - *Additions*: ZED2i, Jetson Orin AGX, Maxon Motors, Lidar, RGB Cameras.
 - *Drawbacks*: - Needs testing -
